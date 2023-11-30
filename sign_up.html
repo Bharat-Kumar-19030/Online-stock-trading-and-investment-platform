@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <body id="hello1" style="background-color:#E0EAF5">
+      
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="charts.html"> Learn How to Trade</a>
+        <a style="float:right;padding:14px 17px;font-size:17px ;text-decoration:none;text-align:center;color:#f2f2f2" href="aboutus.html">About us</a>
+        <a style="float:right;padding:14px 17px;font-size:17px ;text-decoration:none;text-align:center;color:#f2f2f2;background-color:#FF8E2B" href="sign_up.html">Sign up</a>
+        <a href="calc.html">Calculate your Investment</a>
+        <a href="buy.html">Invest</a>
+      </div>
+        <div style="border:5px solid white ;background-color:#E0EAF5;display:block;width:auto;margin: auto; "><h1 style="text-align:center; font-size:60px">Sign up Form</h1>
+        
+        <form method="post" action='calc.html' id="form">
+            <p style="text-align:center">Please fill out this form with the required information</p>
+            <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" style="background-color:white;color:black" type="text" required /></label>
+            <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" style="background-color:white;color:black" type="text" required /></label>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" style="background-color:white;color:black" required /></label>
+            <label for="new-password">Create a New Password: <input id="new-password" style="background-color:white;color:black" name="new-password" type="password" required /></label>
+         <hr>
+        
+            
+            <legend>Account type</legend>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+         
+          <fieldset>
+            <label for="profile-picture">Upload a profile picture: <input style="background-color:white;color:black" id="profile-picture" type="file" name="file" /></label>
+            <label for="age">Input your age (years): <input style="background-color:white;color:black" id="age" type="number" name="age" min="13" max="120" /></label>
+            
+          </fieldset>
+          <label for="terms-and-conditions">
+            <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="terms.html">terms and conditions</a>
+          </label>
+         
+         <a href="calc.html" style="border:1px black solid;margin:auto;padding:3px;display:block;background-color:#0D2137;color:white;width:50px;text-align:center">Submit</a>
+        </form></div>
+      </body>
+    </html>
+</body>
+</html>
